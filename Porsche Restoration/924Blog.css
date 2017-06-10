@@ -88,13 +88,21 @@ body{
     border: 2px solid black;
 }*/
 .copyright{
-    position: fixed;
+    position: static;
     bottom: 3%;
     display: block;
     font-size: 13pt;
+    text-align: left;
     color: black;
     text-transform: uppercase;
 }
 .margin {
     margin-top: 20px;
+}
+.box{
+    width: 60%;
+    padding: 10px ;
+    border: black double 2px ;
+    margin: auto;
+    text-align: justify;
 }
