@@ -59,7 +59,7 @@ h3{
     text-align: center;
 }
 .imageSmall{
-    margin: 10px 10px;
+    margin: 10px auto;
     display: inline-block;
     /*width: 200px;*/
     height: 130px;
