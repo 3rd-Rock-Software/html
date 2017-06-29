@@ -39,7 +39,7 @@ h3{
 }
 .center{
     margin: auto;
-    }
+}
 .pad{
     padding: 10% 10%;
 }
@@ -63,13 +63,13 @@ h3{
     display: inline-block;
     /*width: 200px;*/
     height: 130px;
- }
+}
 .imageMedium{
     margin: 10px 10px;
     display: inline-block;
     width: 350px;
-    height: 196px;
- }
+    /*height: 196px;*/
+}
 .mainImage{
     margin:0px auto;
     display: block;
@@ -151,4 +151,11 @@ h3{
     /*border: black double 2px ;*/
     margin: auto;
     text-align: justify;
+}.img-with-text {
+    /*display: inline-block;*/
+    float: left;
+    text-align: center;
+    width: 40%;
+    margin-right: 1%;
+    margin-bottom: 1%;
 }
