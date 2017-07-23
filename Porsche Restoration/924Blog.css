@@ -72,8 +72,13 @@ h3{
 }
 .mainImage{
     margin:0px auto;
-    display: block;
+    display: inline-block;
     width: 15%;
+}
+.selfPortrait{
+    margin:10px auto;
+    display: block;
+    height: 240px;
 }
 .border{
     border-color: black;
