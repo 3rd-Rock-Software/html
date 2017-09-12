@@ -154,7 +154,7 @@ h3{
     width: 80%;
     padding: 10px ;
     /*border: black double 2px ;*/
-    margin: auto;
+    margin: 0px auto;
     text-align: justify;
 }.img-with-text {
     /*display: inline-block;*/
