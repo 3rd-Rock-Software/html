@@ -2,14 +2,16 @@
     Created on : 23-Dec-2016, 12:27:17
     Author     : Simon Weatherley
 */
-body{
+
+body {
     margin: auto;
     background-color: #34bbff;
     text-align: center;
     padding: 10px;
     font-size: 20px;
 }
-h1{
+
+h1 {
     color: #ff4000;
     /*border: black solid 2px;*/
     /*height: 80px;*/
@@ -18,7 +20,8 @@ h1{
     margin: 10px auto;
     /*padding: 1px 2px;*/
 }
-h2{
+
+h2 {
     color: #ff4000;
     /*border: black solid 2px;*/
     /*height: 80px;*/
@@ -28,7 +31,8 @@ h2{
     /*text-align: left;*/
     /*padding: 1px 2px;*/
 }
-h3{
+
+h3 {
     color: #ff4000;
     /*border: black solid 2px;*/
     /*height: 80px;*/
@@ -37,13 +41,16 @@ h3{
     /*margin: 10px auto;*/
     /*padding: 1px 2px;*/
 }
-.center{
+
+.center {
     margin: auto;
 }
-.pad{
+
+.pad {
     padding: 10% 10%;
 }
-.header{
+
+.header {
     /*    background-color: #08e7f5;*/
     color: #ff4000;
     /*border-color: black;*/
@@ -51,43 +58,50 @@ h3{
     font-size: 36pt;
     text-align: center;
 }
-.homePageFont{
+
+.homePageFont {
     color: #000000;
     border-color: black;
     /*height: 100px;*/
     font-size: 25pt;
     text-align: center;
 }
-.imageSmall{
+
+.imageSmall {
     margin: 10px auto;
     display: inline-block;
     /*width: 200px;*/
     height: 130px;
 }
-.imageMedium{
+
+.imageMedium {
     margin: 10px 10px;
     display: inline-block;
     width: 40%;
     /*height: 196px;*/
 }
-.mainImage{
-    margin:0px auto;
+
+.mainImage {
+    margin: 0px auto;
     display: inline-block;
     width: 15%;
 }
-.selfPortrait{
-    margin:10px auto;
+
+.selfPortrait {
+    margin: 10px auto;
     display: block;
     height: 240px;
 }
-.border{
+
+.border {
     border-color: black;
     border-width: 1px;
     border: dotted;
 }
-.button{
+
+.button {
     display: inline-block;
-    outline-style: outset;
+    /* outline-style: outset; */
     background-color: #ff4000;
     text-align: center;
     border-radius: 50%;
@@ -96,9 +110,10 @@ h3{
     padding: 8px 2%;
     margin: 5% auto;
 }
-.button:hover{
+
+.button:hover {
     display: inline-block;
-    outline-style: inset;
+    /* outline-style: inset; */
     background-color: #34bbff;
     text-align: center;
     border-radius: 50%;
@@ -108,11 +123,14 @@ h3{
     margin: 5% auto;
     border: 1px solid #ff4000;
 }
+
+
 /*.button:hover{
     color: #ff4000;
     background-color: #34bbff;
 }*/
-.buttonEnter{
+
+.buttonEnter {
     display: block;
     outline-style: outset;
     background-color: #ff4000;
@@ -128,16 +146,20 @@ h3{
     height: 100px;
     border: 3px solid #ff4000;
 }
-.buttonEnter:hover{
-    outline-style:inset;
+
+.buttonEnter:hover {
+    outline-style: inset;
     background-color: #34bbff;
     color: #ff4000;
     border: 3px solid #ff4000;
 }
+
+
 /*div{
     border: 2px solid black;
 }*/
-.copyright{
+
+.copyright {
     /*position: absolute;*/
     bottom: 3%;
     display: block;
@@ -147,16 +169,20 @@ h3{
     text-transform: uppercase;
     padding: 0px 10px 0px 0px;
 }
+
 .margin {
     margin-top: 20px;
 }
-.box{
+
+.box {
     width: 80%;
-    padding: 10px ;
+    padding: 10px;
     /*border: black double 2px ;*/
     margin: 0px auto;
     text-align: justify;
-}.img-with-text {
+}
+
+.img-with-text {
     /*display: inline-block;*/
     float: left;
     text-align: center;
