@@ -132,7 +132,7 @@ h3 {
 
 .buttonEnter {
     display: block;
-    outline-style: outset;
+    /* outline-style: outset; */
     background-color: #ff4000;
     text-align: center;
     border-top-left-radius: 0%;
@@ -148,7 +148,7 @@ h3 {
 }
 
 .buttonEnter:hover {
-    outline-style: inset;
+    /* outline-style: inset; */
     background-color: #34bbff;
     color: #ff4000;
     border: 3px solid #ff4000;
